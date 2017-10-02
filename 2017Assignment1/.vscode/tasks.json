@@ -1,0 +1,10 @@
+{
+    // See https://go.microsoft.com/fwlink/?LinkId=733558
+    // for the documentation about the tasks.json format
+    "taskName": "tsc",
+    "command": "tsc",
+    "args": ["-w"],
+    "isShellCommand": true,
+    "isBackground": true,
+    "problemMatcher": "$tsc-watch"
+}

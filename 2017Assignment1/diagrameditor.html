@@ -1,0 +1,30 @@
+<head>
+    <style>
+        @import url(style.css);
+        svg {
+            background-color: beige;
+        }
+    </style>
+    <script src="svgelement.js"></script>
+    <script src="observable.js"></script>
+    <script src="diagrameditor.js"></script>
+</head>
+
+<body>
+    <h1> Your diagram editor app goes here! </h1>    
+    <p> Select a shape on the right hand side. Then click and drag on the left hand side to draw the
+        selected shape. <br>
+        <br>
+
+        To link shapes together, click on the text 'link' of one shape and double click on another target
+        shape to link 2 shapes together.<br>
+        Note: once you've clicked the text 'link' of one shape, you can double click any number of other target
+        shapes to connect that one shape with all of those targeted shapes.<br>
+        <br>
+        If you do not wish to connect that shape with other shapes anymore, double click on the text 'link' 
+        to disable the generation of links of that shape with other shapes.
+    </p>    
+    <svg id="diagrameditor" width="900" height="600"/>
+    <svg id = "palette" width = "300" height = "600" />
+    
+</body>
